@@ -1317,13 +1317,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(html`<${App}/>`);
 
 </script>
 <script>
-window.addEventListener('DOMContentLoaded', function() {
-  if (typeof React !== 'undefined' && typeof htm !== 'undefined') {
-    initApp();
-  } else {
-    setTimeout(initApp, 500);
-  }
-});
+initApp();
 </script>
 </body>
 </html>
